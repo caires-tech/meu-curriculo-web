@@ -1,3 +1,8 @@
+# Estudo - style.css
+
+## Arquivo CSS Completo
+
+``` css
 /* --- 1. CONFIGURAÇÕES GERAIS --- */
 body {
     font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
@@ -41,7 +46,7 @@ li { margin-bottom: 1px; text-align: justify; }
     transition: all 0.3s ease;
     position: relative;
     overflow: hidden;
-    margin-top: 0 !important;      /* Garante que o card não tenha margem no topo */
+    margin-top: 0 !important;
 }
 
 .card p { text-align: justify; }
@@ -52,7 +57,6 @@ li { margin-bottom: 1px; text-align: justify; }
     border-color: #3498db;
 }
 
-/* Seta no canto do card */
 .card::after {
     content: "➔";
     position: absolute;
@@ -67,42 +71,38 @@ li { margin-bottom: 1px; text-align: justify; }
 .card-link:hover { text-decoration: none; color: inherit; }
 .card-link:active .card { transform: scale(0.98); background-color: #f0f0f0; }
 
-/* Remove a seta apenas do card de contato */
 .contato-card::after {
-    display: none !important; /* Esconde o pseudoelemento ::after */
+    display: none !important;
 }
 
 /* --- 3. SEÇÃO CONTATO E ÍCONES --- */
 #contato { padding-bottom: 20px;}
 #contato h2 { text-align: center; margin-bottom: 30px; }
 
-main {
-    padding-top: 20px; /* Ajuste o padding superior do container pai */
-}
-
+main { padding-top: 20px; }
 
 .image-container {
     display: flex;
-    flex-wrap: wrap;        /* quebra a linha automaticamente */
-    justify-content: center; /* Centraliza os ícones no card */
-    gap: 15px;              /* Espaçamento entre os ícones para não ficarem grudados */
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
     padding-bottom: 20px;
-    align-items: center;    /* Garante alinhamento vertical */
+    align-items: center;
 }
 
 .image-item { text-align: center; }
 
 .image-item img {
     width: 40px;
-    height: auto; /*Mantém a proporção */
+    height: auto;
     object-fit: contain;
-    transition: transform 0.3s ease, opacity 0.3s ease; /* Adiciona a transição de opacidade */
-    opacity: 0.7; /* Opacidade inicial de 80% */
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    opacity: 0.7;
 }
 
-.image-item img:hover {
-    transform: scale(1.1); /* Mantém o efeito de aumento existente */
-    opacity: 1; /* Opacidade de 100% ao passar o mouse */
+.image-item img:hover { 
+    transform: scale(1.1);
+    opacity: 1;
 }
 
 /* --- 4. MODAL E ANIMAÇÕES --- */
@@ -132,28 +132,28 @@ main {
 
 .close-btn { position: absolute; top: 10px; right: 10px; background: none; border: none; font-size: 1.5rem; cursor: pointer; }
 
+/* --- 5. CONTROLE DOS LINKS --- */
 .link-projeto {
-    text-decoration: none;    /* Remove o sublinhado */
-    color: #444;            /* Cor cinza escuro */
+    text-decoration: none;
+    color: #444;
     font-weight: normal;
-    font-style: italic;      /* Itálico ajuda a diferenciar o que é link */
+    font-style: italic;
     cursor: pointer;
 }
 
-/* Força que, mesmo ao clicar ou passar o mouse, a cor continue a mesma */
 .link-projeto:visited,
-.link-projeto:hover { /* Efeito de transição */
+.link-projeto:hover {
     color: #444;
-    text-decoration: none;
+    text-decoration: underline;
 }
+
 .link-projeto:active {
     color: #444;
     text-decoration: none;
 }
 
-/* Estilizando os links de certificados */
 .cert-link {
-    text-decoration: none;    /* Remove o sublinhado */
+    text-decoration: none;
     color: #444;
     font-weight: normal;
     font-style: italic;
@@ -161,17 +161,15 @@ main {
     margin-left: 5px;
 }
 
-/* Força o comportamento "fixo" para que a cor nunca mude */
-.cert-link:visited,
+.cert-link:visited, 
 .cert-link:active {
     color: #444;
     text-decoration: none;
 }
 
-/* Opcional: um efeito de transição para ficar elegante */
 .cert-link:hover {
     color: #444;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 @keyframes modalSurgir {
@@ -184,7 +182,7 @@ main {
     to { opacity: 1; transform: translateY(0); }
 }
 
-/* --- 5. RESPONSIVIDADE (MOBILE) --- */
+/* --- 6. RESPONSIVIDADE (MOBILE) --- */
 @media (max-width: 768px) {
     main { width: 95%; padding: 10px; }
     .card { padding: 20px; margin-bottom: 20px; }
@@ -192,3 +190,4 @@ main {
     h2 { font-size: 1.2rem; }
     p, li { font-size: 0.95rem; }
 }
+```

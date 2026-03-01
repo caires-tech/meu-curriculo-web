@@ -132,6 +132,7 @@ main {
 
 .close-btn { position: absolute; top: 10px; right: 10px; background: none; border: none; font-size: 1.5rem; cursor: pointer; }
 
+/* --- 5. CONTROLE DOS LINKS --- */
 .link-projeto {
     text-decoration: none;    /* Remove o sublinhado */
     color: #444;            /* Cor cinza escuro */
@@ -184,7 +185,7 @@ main {
     to { opacity: 1; transform: translateY(0); }
 }
 
-/* --- 5. RESPONSIVIDADE (MOBILE) --- */
+/* --- 6. RESPONSIVIDADE (MOBILE) --- */
 @media (max-width: 768px) {
     main { width: 95%; padding: 10px; }
     .card { padding: 20px; margin-bottom: 20px; }

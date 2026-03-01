@@ -6,7 +6,7 @@
 #  1. CONFIGURAÇÕES GERAIS 
 ## Body, header, etc
 
-´´´
+```
 body {
     font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
     line-height: 1.4;
@@ -37,12 +37,12 @@ h3 { margin: 0 0 5px 0; color: #2980b9; font-size: 1.1rem; }
 p { margin: 5px 0; }
 ul { margin-top: 2px; padding-left: 20px; }
 li { margin-bottom: 1px; text-align: justify; }
-´´´
+```
 
 ------------------------------------------------------------------------
 # 2. CARDS (REUTILIZÁVEL) 
 
-´´´
+```
 .card {
     background: #fff;
     padding: 30px;
@@ -81,12 +81,12 @@ li { margin-bottom: 1px; text-align: justify; }
 .contato-card::after {
     display: none !important;
 }
-´´´
+```
 
 ------------------------------------------------------------------------
 # 3. SEÇÃO CONTATO E ÍCONES
 
-´´´
+```
 contato { padding-bottom: 20px;}
 contato h2 { text-align: center; margin-bottom: 30px; }
 
@@ -115,11 +115,11 @@ main { padding-top: 20px; }
     transform: scale(1.1);
     opacity: 1;
 }
-´´´
+```
 
 ------------------------------------------------------------------------
 # 4. MODAL E ANIMAÇÕES 
-´´´
+```
 .modal-overlay {
     display: none; opacity: 0;
     position: fixed; top: 0; left: 0;
@@ -145,12 +145,12 @@ main { padding-top: 20px; }
 }
 
 .close-btn { position: absolute; top: 10px; right: 10px; background: none; border: none; font-size: 1.5rem; cursor: pointer; }
-´´´
+```
 
 ------------------------------------------------------------------------
 # 5.CONTROLE DOS LINKS --- */
 
-´´´
+```
 .link-projeto {
     text-decoration: none;
     color: #444;
@@ -199,11 +199,11 @@ main { padding-top: 20px; }
     from { opacity: 0; transform: translateY(20px); }
     to { opacity: 1; transform: translateY(0); }
 }
-´´´
+```
 ------------------------------------------------------------------------
 # 6. RESPONSIVIDADE (MOBILE)
 
-´´´
+```
 @media (max-width: 768px) {
     main { width: 95%; padding: 10px; }
     .card { padding: 20px; margin-bottom: 20px; }
@@ -211,4 +211,4 @@ main { padding-top: 20px; }
     h2 { font-size: 1.2rem; }
     p, li { font-size: 0.95rem; }
 }
-´´´
+```

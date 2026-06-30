@@ -14,7 +14,7 @@ Este site apresenta uma visão consolidada da minha carreira, unindo 23 anos de 
 
 ## Como Acessar
 Você pode visualizar o portfólio online clicando no link abaixo:
-[https://github.com/caires-tech/meu-curriculo-web/](https://github.com/caires-tech/meu-curriculo-web/)
+[https://caires-tech.github.io/meu-curriculo-web/](https://caires-tech.github.io/meu-curriculo-web/)
 
 ---
 *Desenvolvido por Rodrigo Caires.*

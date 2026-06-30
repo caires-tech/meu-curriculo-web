@@ -26,420 +26,242 @@
     </header>
 
     <main>
-        <div id="modal-container" class="modal-overlay">
-            <div class="modal-content">
-                <button class="close-btn" onclick="fecharModal()">&times;</button>
-                <div class="modal-inner-scroll">
-                    <div id="modal-body">
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <section class="card contato-card" id="contato">
-            <h2>Contato</h2>
+        <section class="card-moderno contato-card" id="contato">
             <div class="image-container">
                 <a href="mailto:cairesdig@gmail.com" aria-label="Enviar um e-mail para Rodrigo Caires"
                     title="cairesdig@gmail.com">
-                    <div class="image-item">
-                        <img src="email.png" alt="Email">
-                    </div>
+                    <div class="image-item"><img src="email.png" alt="Email"></div>
                 </a>
                 <a href="https://linkedin.com/in/rodrigo-c-285214156" target="_blank" aria-label="Acessar meu LinkedIn"
                     title="LinkedIn">
-                    <div class="image-item">
-                        <img src="linkedin.png" alt="LinkedIn">
-                    </div>
+                    <div class="image-item"><img src="linkedin.png" alt="LinkedIn"></div>
                 </a>
                 <a href="https://www.facebook.com/cairesdig" target="_blank" aria-label="Acessar meu Facebook"
                     title="Facebook">
-                    <div class="image-item">
-                        <img src="facebook.png" alt="Facebook">
-                    </div>
+                    <div class="image-item"><img src="facebook.png" alt="Facebook"></div>
                 </a>
                 <a href="https://www.instagram.com/rodrigo__rc__/" target="_blank" aria-label="Acessar meu Instagram"
                     title="Instagram">
-                    <div class="image-item">
-                        <img src="instagram.png" alt="Instagram">
-                    </div>
+                    <div class="image-item"><img src="instagram.png" alt="Instagram"></div>
                 </a>
                 <a href="https://github.com/caires-tech" target="_blank" aria-label="Acessar meu GitHub" title="GitHub">
-                    <div class="image-item">
-                        <img src="github.png" alt="GitHub">
-                    </div>
+                    <div class="image-item"><img src="github.png" alt="GitHub"></div>
                 </a>
                 <a href="https://caires-tech.github.io/Projetos/" target="_blank" aria-label="Acessar meus Projetos"
                     title="Projetos">
-                    <div class="image-item">
-                        <img src="caires.png" alt="Projetos Caires-Tech">
-                    </div>
+                    <div class="image-item"><img src="caires.png" alt="Projetos Caires-Tech"></div>
                 </a>
             </div>
         </section>
 
-        <div class="card" onclick="abrirModal('conteudo-sobre')">
-            <h2>Resumo Profissional</h2>
-            <p>Profissional com mais de 23 anos de experiência em gestão operacional, administrativa e financeira, com
-                sólida
-                vivência em processos corporativos, compliance e governança. Unindo maturidade em operações complexas a
-                uma
-                visão analítica atualizada, combino expertise em gestão de fluxos com habilidades técnicas em tecnologia
-                (Python, SQL, Power BI). Sou um profissional multidisciplinar, focado na intersecção entre processos
-                administrativos
-                e suporte tecnológico, sempre orientado à otimização de resultados e adaptabilidade em ambientes
-                dinâmicos.</p>
-        </div>
+        <section class="secao-moderna">
+            <h2 class="section-title">Resumo Profissional</h2>
+            <div class="card-moderno">
+                <p>Sou um profissional com mais de 23 anos de experiência em ambientes corporativos estruturados, com
+                    uma carreira construída na intersecção entre a gestão operacional/financeira e a tecnologia da
+                    informação. Minha trajetória é marcada pela versatilidade: iniciei em funções técnicas e
+                    administrativas de base, evoluí para cargos de liderança estratégica e, hoje, atuo como um agente de
+                    otimização de processos e qualidade de dados.</p>
 
-        <div class="card" onclick="abrirModal('conteudo-experiencia')">
-            <h2>Experiência Profissional</h2>
-            <h2 class="empresa-titulo">Sicredi Morada do Sol - 2001 a 2025</h2>
-            <div>
-                <h3>Assessor de Serviços Compartilhados<span class="data-titulo">2024 - 2025</span></h3>
-                <ul>
-                    <li>Eficiência operacional</li>
-                    <li>Compliance</li>
-                    <li>Análise e tratamento de processos</li>
-                    <li>Gestão Administrativa/Operacional Regional</li>
-                </ul>
+                <div class="resumo-detalhes">
+                    <p><strong>Gestão Operacional e Financeira:</strong> Sólida experiência em gestão de fluxo de caixa,
+                        controle de numerário, validação documental e conformidade regulatória com foco em mitigação de
+                        riscos.</p>
+                    <p><strong>Interface Tecnológica (Tech-Bridge):</strong> Formado em Ciência da Computação, utilizo
+                        conhecimentos de desenvolvimento e análise de dados (Python, SQL, Power BI) para automatizar
+                        tarefas repetitivas e elevar a eficiência das operações administrativas.</p>
+                </div>
             </div>
-            <div>
-                <h3>Gerente Administrativo Financeiro<span class="data-titulo">2017 - 2023</span></h3>
-                <ul>
-                    <li>Gestão de processos</li>
-                    <li>Controles Internos</li>
-                    <li>Liderança de equipes</li>
-                    <li>Suporte estratégico</li>
-                    <li>Padronização de rotinas</li>
-                </ul>
+        </section>
+
+        <section class="secao-moderna">
+            <h2 class="section-title">Experiência Profissional</h2>
+            <div class="card-moderno">
+                <div class="empresa-header">
+                    <h3 class="empresa-titulo">Sicredi Morada do Sol</h3>
+                    <span class="empresa-periodo">2001 - 2025</span>
+                </div>
+                <p class="empresa-sub">Trajetória consolidada em operações financeiras e gestão administrativa.</p>
+
+                <div class="timeline-item">
+                    <div class="timeline-header">
+                        <h4>Assessor de Serviços Compartilhados</h4>
+                        <span class="data-titulo">2024 - 2025</span>
+                    </div>
+                    <p>Atuação em ambiente regional de serviços compartilhados, focado na análise operacional,
+                        conferência de contratos, validação documental e garantia de compliance com normas internas e
+                        requisitos regulatórios. Responsável pela integridade e rastreabilidade de dados operacionais em
+                        sistemas ERP corporativos e apoio à melhoria contínua de fluxos de workflow.</p>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-header">
+                        <h4>Gerente Administrativo Financeiro</h4>
+                        <span class="data-titulo">2017 - 2023</span>
+                    </div>
+                    <p>Gestão administrativa, financeira e operacional com foco em controles internos, padronização de
+                        rotinas e mitigação de riscos. Liderança de equipes administrativas, elaboração de relatórios
+                        gerenciais para suporte à tomada de decisão e atuação como elo/interface constante com a área de
+                        TI para otimização de sistemas corporativos.</p>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-header">
+                        <h4>Tesoureiro</h4>
+                        <span class="data-titulo">2009 - 2016</span>
+                    </div>
+                    <p>Gestão de numerário da unidade, controle de fluxo de caixa, conciliação e regularização de
+                        inconsistências financeiras. Organização de rotinas de retaguarda e orientação da equipe de
+                        caixas para cumprimento de prazos e segurança operacional.</p>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-header">
+                        <h4>Caixa</h4>
+                        <span class="data-titulo">2006 - 2008</span>
+                    </div>
+                    <p>Controle de caixa, abertura e fechamento, administração de valores e suporte geral às rotinas de
+                        retaguarda administrativa da agência.</p>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-header">
+                        <h4>Funções Anteriores</h4>
+                        <span class="data-titulo">2001 - 2005</span>
+                    </div>
+                    <p>Atuações como <strong>Auxiliar Administrativo</strong> (atendimento e organização de dados),
+                        <strong>Analista de Sistemas Júnior</strong> (administração básica de banco de dados,
+                        infraestrutura de rede e suporte ao usuário) e <strong>Estagiário de TI</strong>.
+                    </p>
+                </div>
             </div>
-            <div>
-                <h3>Tesoureiro<span class="data-titulo">2009 - 2016</span></h3>
-                <ul>
-                    <li>Gestão de numerário</li>
-                    <li>Segurança operacional</li>
-                    <li>Integridade de registros financeiros</li>
-                    <li>Gestão de Retaguarda</li>
-                </ul>
+        </section>
+
+        <section class="secao-moderna">
+            <h2 class="section-title">Tecnologias e Ferramentas</h2>
+            <div class="card-moderno grid-competencias">
+                <div class="tech-tag">Python <a
+                        href="https://www.udemy.com/certificate/UC-7b7f78c0-3734-451d-a22d-4705a488917c/"
+                        target="_blank" class="cert-link">📜</a></div>
+                <div class="tech-tag">JavaScript <a
+                        href="https://www.udemy.com/certificate/UC-31483b3c-786c-406e-85a0-22a17111ead6/"
+                        target="_blank" class="cert-link">📜</a></div>
+                <div class="tech-tag">TypeScript <a
+                        href="https://www.udemy.com/certificate/UC-12376441-4424-4957-8bc9-910abc2392ee/"
+                        target="_blank" class="cert-link">📜</a></div>
+                <div class="tech-tag">SQL <a
+                        href="https://www.udemy.com/certificate/UC-bffb8a2d-7315-4b41-909f-a118dfb9228c/"
+                        target="_blank" class="cert-link">📜</a></div>
+                <div class="tech-tag">Power BI <a
+                        href="https://www.udemy.com/certificate/UC-0f625ac0-8a5f-47f2-b667-e9c67d4a6279/"
+                        target="_blank" class="cert-link">📜</a></div>
+                <div class="tech-tag">Git & GitHub <a
+                        href="https://www.udemy.com/certificate/UC-c72132ce-f16d-4119-bf77-09c02a0db53a/"
+                        target="_blank" class="cert-link">📜</a></div>
+                <div class="tech-tag">Automação N8N <a
+                        href="https://www.udemy.com/certificate/UC-27014143-2900-4ee6-bea3-3cb5abb81417/"
+                        target="_blank" class="cert-link">📜</a></div>
+                <div class="tech-tag">Excel Intermediário</div>
+                <div class="tech-tag">ERPs / Sistemas Corporativos</div>
+                <div class="tech-tag">Java (Básico)</div>
+                <div class="tech-tag">Pacote Office</div>
             </div>
-            <div>
-                <h3>Caixa<span class="data-titulo">2006 - 2008</span></h3>
-                <ul>
-                    <li>Controle de caixa, abertura e fechamento</li>
-                    <li>Administração de valores</li>
-                    <li>Apoio à rotinas administrativas</li>
-                </ul>
+        </section>
+
+        <section class="projects-section">
+            <h2 class="section-title">Projetos em Destaque</h2>
+
+            <div class="project-card featured-project">
+                <div class="project-header">
+                    <h3>Tabela Copa do Mundo 2026</h3>
+                    <div class="badges">
+                        <span class="badge published">Publicado</span>
+                        <span class="badge featured">Reconhecido</span>
+                    </div>
+                </div>
+                <p>Sistema web para simulação e gerenciamento de tabela de competição esportiva com regras automáticas
+                    de classificação, autenticação de usuários e integração frontend/backend.</p>
+                <p class="tech">HTML • CSS • JavaScript • Node.js • Express • Git • GitHub</p>
+                <div class="project-links">
+                    <a href="https://caires-tech.github.io/naTabela/" target="_blank">🔗 Ver Projeto</a>
+                    <a href="https://feitobr.com.br/blog/recomecar-aos-40-como-rodrigo-caires-transformou-uma-transicao-de-carreira-em-laboratorio-de-produtos-digitais"
+                        target="_blank">📰 Artigo FeitoBR</a>
+                    <a href="https://feitobr.com.br/lab/dd6ad512-e70f-4658-993b-43fa4dc35b02" target="_blank">🧪
+                        Lab-BR</a>
+                </div>
             </div>
-            <div>
-                <h3>Funções anteriores<span class="data-titulo">2001 - 2005</span></h3>
-                <ul>
-                    <li>Auxiliar Administrativo</li>
-                    <li>Analista de Sistemas Junior</li>
-                    <li>Estagiário</li>
-                </ul>
+
+            <div class="project-card">
+                <div class="project-header">
+                    <h3>Sistema de Geração de Descrições com IA</h3>
+                    <span class="badge active">Em evolução</span>
+                </div>
+                <p>Aplicação full stack com autenticação de usuários, integração com API de IA, histórico e controle de
+                    uso por usuário.</p>
+                <p class="tech">Python • Flask • MySQL • JavaScript • APIs</p>
             </div>
-        </div>
 
-        <div class="card" onclick="abrirModal('conteudo-competencias')">
-            <h2>Competências</h2>
-            <ul>
-                <li>Gestão administrativa e operacional em ambientes corporativos e financeiros</li>
-                <li>Organização, padronização e controle de processos</li>
-                <li>Análise, conferência e validação de dados e informações</li>
-                <li>Elaboração, acompanhamento e interpretação de relatórios e indicadores</li>
-                <li>Conformidade, compliance e controles internos</li>
-                <li>Integração entre áreas administrativas, operacionais e tecnologia</li>
-                <li>Suporte a usuários, comunicação clara e trabalho colaborativo</li>
-                <li>Trabalho remoto, autonomia, disciplina e organização</li>
-                <li>Aprendizado contínuo, adaptabilidade e melhoria de processos</li>
-            </ul>
-        </div>
+            <div class="project-card">
+                <div class="project-header">
+                    <h3>Automação de Diários Oficiais</h3>
+                    <span class="badge experimental">Automação</span>
+                </div>
+                <p>Script em Python para leitura e extração automática de informações em PDFs diários, com foco em
+                    automação e análise de dados.</p>
+                <p class="tech">Python • Automação • Parsing de PDF</p>
+            </div>
+        </section>
 
-        <div class="card" onclick="abrirModal('conteudo-tecnologias')">
-            <h2>Tecnologias e Ferramentas</h2>
-            <ul>
-                <li>Python</li>
-                <li>JavaScript</li>
-                <li>TypeScript</li>
-                <li>SQL (consultas básicas)</li>
-                <li>Power BI (modelagem e visualizações básicas)</li>
-                <li>Git e GitHub</li>
-                <li>Microsoft Excel (intermediário)</li>
-                <li>Sistemas Corporativos / ERP (conhecimento funcional)</li>
-                <li>Java (básico)</li>
-                <li>Automação N8N</li>
-                <li>Pacote Office</li>
-            </ul>
-        </div>
+        <!-- FORMAÇÃO E CERTIFICAÇÕES (Lado a Lado / Grid) -->
+        <div class="grid-dois-campos">
+            <section class="secao-moderna">
+                <h2 class="section-title">Formação</h2>
+                <div class="card-moderno">
+                    <!-- PÓS-GRADUAÇÃO -->
+                    <div
+                        style="display: flex; justify-content: space-between; align-items: flex-start; gap: 10px; margin-bottom: 10px;">
+                        <h3>Pós-Graduação em Ciência de Dados</h3>
+                        <span class="badge active" style="font-size: 10px; padding: 1px 4px; white-space: nowrap;">Em
+                            andamento</span>
+                    </div>
+                    <p class="empresa-sub" style="margin-bottom: 15px;">UNIASSELVI - 2026</p>
 
-        <div class="card" onclick="abrirModal('conteudo-projetos')">
-            <h2>Projetos</h2>
-            <ul>
-                <li>GitHub - Meus projetos</li>
-            </ul>
-        </div>
+                    <hr style="border: 0; border-top: 1px dashed #e6e6e6; margin: 10px 0;">
 
-        <div class="card" onclick="abrirModal('conteudo-formacao')">
-            <h2>Formação</h2>
-            <p>Universidade de Araraquara - UNIARA</p>
-            <p>Bacharel em Ciência da Computação | 1998 - 2001</p>
-        </div>
+                    <!-- GRADUAÇÃO -->
+                    <h3>Bacharel em Ciência da Computação</h3>
+                    <p class="empresa-sub">UNIARA — 1998 - 2001</p>
+                    <p style="font-size: 0.9rem; color: #555; margin-top: 8px;">Formação com ênfase em análise de
+                        sistemas, provendo forte raciocínio lógico e base conceitual técnica.</p>
+                </div>
 
-        <div class="card" onclick="abrirModal('conteudo-certificacoes')">
-            <h2>Certificações</h2>
-            <ul>
-                <li>CPA-10 – ANBIMA (2021)</li>
-                <li>Prevenção à Lavagem de Dinheiro – IBPLD (2021)</li>
-                <li>Desenvolvimento Profissional e Gestão de Equipes – Escola de Líderes (2018)</li>
-            </ul>
-        </div>
+                <h2 class="section-title" style="margin-top: 25px;">Idiomas</h2>
+                <div class="card-moderno">
+                    <p><strong>Português:</strong> Nativo</p>
+                    <p><strong>Inglês:</strong> Intermediário <span style="font-size: 0.85rem; color:#777;">(Leitura e
+                            escrita)</span></p>
+                </div>
+            </section>
 
-        <div class="card" onclick="abrirModal('conteudo-idiomas')">
-            <h2>Idiomas</h2>
-            <ul>
-                <li>Português – Nativo</li>
-                <li>Inglês – Intermediário (leitura e escrita)</li>
-            </ul>
+            <section class="secao-moderna">
+                <h2 class="section-title">Certificações</h2>
+                <div class="card-moderno lista-certificacoes">
+                    <div class="cert-item">
+                        <strong>CPA-10 – ANBIMA (2021)</strong>
+                        <p>Certificação técnica para o mercado financeiro e produtos de investimento.</p>
+                    </div>
+                    <div class="cert-item">
+                        <strong>Prevenção à Lavagem de Dinheiro – IBPLD (2021)</strong>
+                        <p>Capacitação em Compliance e análise de riscos operacionais regulados.</p>
+                    </div>
+                    <div class="cert-item">
+                        <strong>Gestão de Equipes – Escola de Líderes (2018)</strong>
+                        <p>Desenvolvimento profissional focado em liderança e times de alta performance.</p>
+                    </div>
+                </div>
+            </section>
         </div>
     </main>
-
-    <div id="conteudo-sobre" style="display:none;">
-        <h2>Sobre minha trajetória profissional</h2>
-        <p>Sou um profissional com mais de 23 anos de experiência em ambientes corporativos estruturados, com uma
-            carreira construída na intersecção entre a gestão operacional/financeira e a tecnologia da informação.
-            Minha trajetória é marcada pela versatilidade: iniciei em funções técnicas e administrativas de base,
-            evoluí para cargos de liderança estratégica e, hoje, atuo como um agente de otimização de processos e
-            qualidade de dados.</p>
-        <h4>Expertise e Diferenciais Competitivos</h4>
-        <p><strong>Gestão Operacional e Financeira:</strong> Sólida experiência em gestão de fluxo de caixa, controle
-            de numerário, validação documental e conformidade regulatória. Atuação consistente em ambientes altamente
-            regulados, com rigoroso foco em mitigação de riscos e integridade de dados.</p>
-        <p><strong>Processos e Eficiência:</strong> Especialista em redesenho de fluxos (workflow), padronização de
-            rotinas e análise de desvios. Minha atuação foca em reduzir o retrabalho, garantir o cumprimento de prazos e
-            otimizar a interface entre áreas internas e tecnologia.</p>
-        <p><strong>Liderança e Tomada de Decisão:</strong> Histórico de liderança de equipes administrativas, com foco
-            em alinhamento de processos, orientação técnica e suporte à alta gestão na análise de relatórios
-            administrativos estratégicos.</p>
-        <p><strong>Interface Tecnológica (Tech-Bridge):</strong> Formado em Ciência da Computação, possuo um perfil
-            analítico diferenciado. Utilizo conhecimentos de desenvolvimento e análise de dados (Python, SQL, Power BI)
-            para elevar o nível das operações administrativas, automatizar tarefas repetitivas e melhorar a qualidade da
-            informação corporativa.</p>
-        <h4>Sintese da Carreira</h4>
-        <p>Ao longo de duas décadas, transitei desde o suporte técnico e infraestrutura (Analista de Sistemas Jr.,
-            Estagiário de TI) até cargos de gestão estratégica (Gerente Administrativo Financeiro, Assessor de Serviços
-            Compartilhados). Esta jornada me deu uma visão 360º da empresa: entendo as necessidades do usuário final, a
-            complexidade da infraestrutura técnica e as exigências financeiras/regulatórias do negócio.</p>
-        <p><strong>Meu objetivo atual:</strong> Combinar minha bagagem sênior de gestão com minhas competências técnicas
-            em análise de dados e desenvolvimento, contribuindo para ambientes que exigem adaptabilidade, inteligência
-            de processos e suporte tecnológico qualificado.</p>
-    </div>
-
-    <div id="conteudo-experiencia" style="display:none;">
-        <h2>Experiência Profissional</h2>
-        <h2 class="empresa-titulo">Sicredi Morada do Sol - 2001 a 2025</h2>
-        <h2>Trajetória consolidada em operações financeiras e gestão administrativa.</h2>
-        <p><strong>Assessor de Serviços Compartilhados: </strong>
-        <p>Atuação em ambiente regional de serviços compartilhados, com foco na execução, acompanhamento,
-            análise e controle de processos operacionais, utilizando sistemas corporativos, fluxos de workflow
-            padronizados e registros estruturados de informações. Responsável pela análise operacional,
-            conferência de contratos, validação documental e verificação de requisitos regulatórios, assegurando
-            conformidade com normas internas, políticas institucionais e padrões de qualidade.</p>
-        <p>Realização do registro, atualização e acompanhamento de informações cadastrais e operacionais em
-            sistemas internos e bases de dados, garantindo integridade, consistência, padronização e
-            rastreabilidade dos dados. Acompanhamento completo do ciclo dos processos sob responsabilidade,
-            desde a formalização inicial até a conclusão, incluindo identificação de inconsistências, análise de
-            divergências, atuação corretiva e interação com áreas internas e de tecnologia.</p>
-        <p>Execução de lançamentos, validações cadastrais e atualizações operacionais em sistemas
-            corporativos, com foco na confiabilidade das informações, cumprimento de prazos e mitigação de
-            riscos operacionais. Apoio à padronização e melhoria contínua dos processos, contribuindo para
-            otimização de fluxos, redução de retrabalho, documentação de rotinas e orientação a colaboradores
-            internos quanto à correta execução das atividades, uso adequado dos sistemas e aderência aos
-            procedimentos estabelecidos.</p>
-        <p><strong>Gerente Administrativo Financeiro: </strong>
-        <p>Atuação na gestão administrativa, financeira e operacional, com responsabilidade sobre processos,
-            controles internos e padronização de fluxos, assegurando conformidade com normas internas, políticas
-            institucionais e boas práticas de controle. Envolvimento direto no acompanhamento das rotinas
-            operacionais e no suporte às áreas de negócio, com foco em eficiência, organização, continuidade das
-            operações e qualidade da informação.</p>
-        <p>Responsável pelo acompanhamento operacional de contratos e processos, controle de prazos,
-            organização e validação documental, conferência de dados cadastrais e operacionais e monitoramento
-            do andamento das demandas, garantindo integridade, consistência e confiabilidade dos registros, bem
-            como mitigação de riscos operacionais.</p>
-        <p>Elaboração, análise e acompanhamento de relatórios administrativos e operacionais para apoio à
-            liderança e à tomada de decisão. Liderança de equipes administrativas, com definição de prioridades,
-            distribuição de atividades, acompanhamento de entregas e orientação técnica, promovendo padronização
-            de rotinas, alinhamento entre pessoas, processos e resultados.</p>
-        <p>Interface constante com a área de Tecnologia da Informação, apoiando a utilização de sistemas
-            corporativos, registro, atualização e qualidade das informações operacionais, além da melhoria
-            contínua dos fluxos internos, contribuindo para maior eficiência, redução de retrabalho e suporte à
-            tomada de decisão.</p>
-        </p>
-        <p><strong>Tesoureiro: </strong>
-        <p>Atuação na gestão de numerário da unidade, com responsabilidade pelo controle de caixa, conferência
-            de valores, acompanhamento de entradas e saídas financeiras e garantia da segurança das operações
-            diárias, em conformidade com normas internas, políticas de controle e procedimentos estabelecidos.</p>
-        <p>Realização da conferência de valores, identificação, apuração e regularização de inconsistências,
-            com registro das ocorrências em sistemas internos, assegurando precisão das informações, integridade
-            dos registros, rastreabilidade dos dados e mitigação de riscos operacionais.</p>
-        <p>Apoio às rotinas administrativas e de retaguarda, com organização de fluxos operacionais,
-            padronização de procedimentos e orientação da equipe de caixa, garantindo continuidade das
-            operações, cumprimento de prazos, qualidade dos registros e bom atendimento.</p>
-        </p>
-        <p><strong>Caixa: </strong>
-        <p>Atuação na gestão de numerário da unidade, com responsabilidade pelo controle de caixa, conferência
-            de valores, acompanhamento de entradas e saídas financeiras e garantia da segurança das operações
-            diárias, em conformidade com normas internas, políticas de controle e procedimentos estabelecidos.</p>
-        <p>Realização da conferência de valores, identificação, apuração e regularização de inconsistências,
-            com registro das ocorrências em sistemas internos, assegurando precisão das informações, integridade
-            dos registros, rastreabilidade dos dados e mitigação de riscos operacionais.</p>
-        <p>Apoio às rotinas administrativas e de retaguarda, com organização de fluxos operacionais,
-            padronização de procedimentos e orientação da equipe de caixa, garantindo continuidade das
-            operações, cumprimento de prazos, qualidade dos registros e bom atendimento.</p>
-        </p>
-        <p><strong>Funções Anteriores:</strong>
-        <p>Auxiliar Administrativo, atuando em rotinas administrativas e de atendimento ao público, com lançamento,
-            conferência,
-            organização e atualização de informações, apoio aos processos internos e suporte operacional aos
-            colaboradores, utilizando sistemas corporativos e registros estruturados de dados.</p>
-        <p>Analista de Sistemas Junior, executando administração básica de banco de dados, suporte à manutenção de
-            sistemas e redes,
-            instalação e configuração de equipamentos e apoio técnico aos usuários, contribuindo para a
-            continuidade dos serviços e estabilidade dos ambientes tecnológicos.</p>
-        <p>Estagiário, exercendo atividade em ambientes administrativo e de tecnologia da informação, apoiando
-            rotinas de TI, suporte básico a usuários, organização de informações, execução de demandas
-            operacionais diversas e adaptação a diferentes atividades e áreas, com foco em aprendizado contínuo
-            e desenvolvimento profissional.</p>
-        </p>
-    </div>
-
-    <div id="conteudo-competencias" style="display:none;">
-        <h2>Competências Profissionais</h2>
-        <p><strong>Gestão Administrativa e Financeira:</strong> Gestão de fluxos operacionais e administrativos com foco
-            em eficiência, mitigação de riscos e sustentabilidade de processos em ambientes de alta complexidade.</p>
-        <p><strong>Processos e Padronização:</strong> Mapeamento, estruturação e controle de processos internos. Foco na
-            redução de gargalos e na garantia de consistência operacional.</p>
-        <p><strong>Análise e Validação de Dados:</strong> Validação rigorosa de informações e análise crítica,
-            assegurando integridade, precisão e suporte qualificado à tomada de decisão.</p>
-        <p><strong>Gestão de Indicadores (KPIs):</strong> Elaboração, acompanhamento e interpretação de relatórios
-            gerenciais, transformando dados brutos em inteligência de negócio.</p>
-        <p><strong>Compliance e Controles Internos:</strong> Atuação baseada em normas regulatórias e padrões de
-            conformidade, priorizando a segurança da informação e a ética corporativa.</p>
-        <p><strong>Integração Multidisciplinar:</strong> Atuação como elo entre áreas administrativas, operacionais e
-            tecnologia, traduzindo necessidades de negócio para soluções otimizadas.</p>
-        <p><strong>Comunicação e Trabalho Colaborativo:</strong> Suporte assertivo a usuários e gestão de stakeholders,
-            promovendo um ambiente de trabalho fluido, transparente e orientado a resultados.</p>
-        <p><strong>Gestão Remota e Autonomia:</strong> Alta capacidade de autogestão e disciplina em ambientes remotos,
-            mantendo produtividade e organização independentemente da localização física.</p>
-        <p><strong>Melhoria Contínua:</strong> Mentalidade voltada à adaptabilidade e otimização constante de processos,
-            sempre buscando a atualização técnica para a evolução dos resultados.</p>
-    </div>
-
-    <div id="conteudo-tecnologias" style="display:none;">
-        <h2>Tecnologias e Ferramentas</h2>
-        <p><strong>Python:</strong> Desenvolvimento de scripts para automação e análise de dados focada em eficiência
-            operacional.
-            <a href="https://www.udemy.com/certificate/UC-7b7f78c0-3734-451d-a22d-4705a488917c/" target="_blank"
-                class="cert-link">Certificado</a>
-        </p>
-        <p><strong>JavaScript:</strong> Desenvolvimento de interfaces web dinâmicas, manipulação do DOM e lógica de
-            programação assíncrona.
-            <a href="https://www.udemy.com/certificate/UC-31483b3c-786c-406e-85a0-22a17111ead6/" target="_blank"
-                class="cert-link">Certificado</a>
-        </p>
-        <p><strong>TypeScript:</strong> Construção de aplicações escaláveis e robustas, utilizando tipagem estática para
-            maior segurança e manutenção de código.
-            <a href="https://www.udemy.com/certificate/UC-12376441-4424-4957-8bc9-910abc2392ee/" target="_blank"
-                class="cert-link">Certificado</a>
-        </p>
-        <p><strong>SQL:</strong> Modelagem de dados e extração de informações estratégicas para suporte à decisão.
-            <a href="https://www.udemy.com/certificate/UC-bffb8a2d-7315-4b41-909f-a118dfb9228c/" target="_blank"
-                class="cert-link">Certificado</a>
-        </p>
-        <p><strong>Microsoft Power BI:</strong> Desenvolvimento de dashboards interativos e visualização de dados para
-            gestão de indicadores.
-            <a href="https://www.udemy.com/certificate/UC-0f625ac0-8a5f-47f2-b667-e9c67d4a6279/" target="_blank"
-                class="cert-link">Certificado</a>
-        </p>
-        <p><strong>Git e GitHub:</strong> Controle de versão e colaboração em projetos de software com foco em
-            organização de código.
-            <a href="https://www.udemy.com/certificate/UC-c72132ce-f16d-4119-bf77-09c02a0db53a/" target="_blank"
-                class="cert-link">Certificado</a>
-        </p>
-        <p><strong>Microsoft Excel:</strong> Modelagem financeira, análise avançada de dados e automação de processos
-            com macros.
-            <a href="https://www.udemy.com/certificate/UC-fdecd88a-7053-4635-8f1c-3ef1e2661d67/" target="_blank"
-                class="cert-link">Certificado</a>
-        </p>
-        <p><strong>Sistemas Corporativos (ERP):</strong> Conhecimento funcional e integração de processos para
-            otimização de fluxo de trabalho.
-            <a href="https://www.udemy.com/certificate/UC-140e0ed0-e0ba-44f4-a2ee-8708f9f741ac/" target="_blank"
-                class="cert-link">Certificado</a>
-        </p>
-        <p><strong>Java:</strong> Desenvolvimento orientado a objetos aplicado a soluções de software robustas.
-            <a href="https://www.udemy.com/certificate/UC-6bb8c37b-88a1-4233-8cc2-535d1a8e4ca9/" target="_blank"
-                class="cert-link">Certificado</a>
-        </p>
-        <p><strong>Automação N8N:</strong> Orquestração de workflows e integração de sistemas para automação de
-            processos digitais.
-            <a href="https://www.udemy.com/certificate/UC-27014143-2900-4ee6-bea3-3cb5abb81417/" target="_blank"
-                class="cert-link">Certificado</a>
-        </p>
-        <p><strong>Pacote Microsoft Office:</strong> Domínio avançado das ferramentas de produtividade e gestão
-            corporativa.</p>
-    </div>
-
-    <div id="conteudo-projetos" style="display:none;">
-        <h2>Meus projetos</h2>
-        <p>
-            Desenvolvo estas aplicações para aplicar conceitos de programação na prática.
-            Aqui transformo teoria em projetos reais.
-            <br><br>
-            <a href="https://caires-tech.github.io/Projetos/" target="_blank" class="link-projeto">
-                👉 Clique aqui para explorar meu portfólio de projetos
-            </a>
-        </p>
-    </div>
-
-    <div id="conteudo-formacao" style="display:none;">
-        <h2>Formação</h2>
-        <p>
-            <strong>Bacharel em Ciência da Computação | 1998 - 2001</strong><br>
-            Universidade de Araraquara - UNIARA
-        </p>
-        <p>Formação multidisciplinar com ênfase em análise de sistemas. O curso proporcionou uma compreensão profunda da
-            infraestrutura tecnológica e do desenvolvimento de software, servindo como alicerce para minha atuação na
-            intersecção entre tecnologia e administração. Esta base acadêmica consolidou meu pensamento crítico e a
-            capacidade de resolver problemas complexos, competências fundamentais para minha entrega em gestão de
-            processos e suporte estratégico.</p>
-    </div>
-
-    <div id="conteudo-certificacoes" style="display:none;">
-        <h2>Certificações</h2>
-        <p>
-            <strong>CPA-10 – ANBIMA (2021):</strong> Certificação Profissional Anbima - série 10. Certificação exigida
-            para profissionais do mercado financeiro, garantindo conhecimentos técnicos sobre produtos de investimento,
-            ética e normas regulatórias.
-            Habilita o atendimento qualificado e a condução de negócios de investimentos em instituições bancárias.
-        </p>
-        <p><strong>Prevenção à Lavagem de Dinheiro – IBPLD (2021):</strong> Certificação obtida através do Instituto
-            Brasileiro de Prevenção à Lavagem de Dinheiro. Capacitação especializada em Compliance e análise de riscos
-            financeiros. Foco no monitoramento de operações,
-            identificação de atividades suspeitas e conformidade com as normas regulatórias de prevenção e reporte.</p>
-        <p><strong>Desenvolvimento Profissional e Gestão de Equipes – Escola de Líderes (2018):</strong> Programa
-            avançado de liderança focado em inteligência emocional, resolução de conflitos, gestão de pessoas e condução
-            de times de alta performance em ambientes corporativos de alta demanda.</p>
-    </div>
-
-    <div id="conteudo-idiomas" style="display:none;">
-        <h2>Idiomas</h2>
-        <p> <strong>Português (nativo):</strong> Sou Brasileiro, nascido em Araraquara interior do estado de São Paulo.
-        </p>
-        <p> <strong>Inglês (intermediário):</strong> Desenvolvi proficiência em leitura e compreensão técnica através de
-            imersão constante
-            em ambientes digitais e documentações internacionais. Possuo capacidade de escrita e entendimento auditivo
-            para o dia a dia profissional,
-            com foco atual na evolução da fluência conversacional para interações de alta complexidade.
-        </p>
-    </div>
 
     <script src="script.js"></script>
 </body>
